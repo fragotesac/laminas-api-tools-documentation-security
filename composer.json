@@ -3,7 +3,7 @@
     "description": "A Laminas package for adding security to the API documentation",
     "type": "library",
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
         "laminas/laminas-mvc": "^3.1",
         "laminas/laminas-api-tools-documentation": "^1.5",
         "laminas/laminas-router": "^3.4",
