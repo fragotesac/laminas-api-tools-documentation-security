@@ -18,7 +18,7 @@ class Module
             $headers = $request->getHeaders();
 
             $path = $request->getUri()->getPath();
-            if ('/api-tools/documentation' == $path) {
+            if (strpos($string, '/api-tools/documentation') === 0) {
                 if (!$headers->has('Authorization')) {
                     return $this->documentationUnauthorizedResponse($event);
                 }
